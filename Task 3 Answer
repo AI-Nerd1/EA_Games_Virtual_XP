@@ -1,0 +1,11 @@
+The first step to implementing a game on Unreal Engine is installing the engine.
+Next we would need to import assets, which in this case are the image files for the ghosts and  Vaxman.
+The imported files can be editted and modified as desired.
+We then go on to create the player and actors, in our case, Vaxman and the ghosts respectively.
+Next we attach a camera and determine the angle of capture.
+We next create a game mode, determining the spawning point of the actors.
+Using the world settings, we determine how the world looks like.
+Determination of inputs comes next, we attach actions to specific keys or buttons depending on what control/input device is being used.
+An equivalent of the ontimer in pygame is the Event tick in Unreal Engine, We use the Event tick to set the speed of events in the game.
+The Destroy Actor node can be created to make the ghosts disappear each time a ghost collides with Vaxman.
+Audio can be inserted based on different animations.
